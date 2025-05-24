@@ -1,0 +1,8 @@
+[build]
+  command = "echo 'No build needed'"
+  publish = "/"  # Folder publik (biarkan kosong)
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/php"
+  status = 200
